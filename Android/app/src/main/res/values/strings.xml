@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clothesuit</string>
+    <string name="toolBarTitleName">Clothesuit</string>
+    <string name="titleListItems">All products</string>
+</resources>

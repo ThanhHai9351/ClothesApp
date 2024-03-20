@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="company.danhy.clothesuit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Clothesuit"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.activity.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.activity.activity.GiayActivity" />
+        <activity android:name=".activity.activity.activity.NonActivity" />
+        <activity android:name=".activity.activity.activity.AoActivity" />
+        <activity android:name=".activity.activity.activity.QuanActivity" />
+        <activity android:name=".activity.activity.activity.DepActivity" />
+        <activity android:name=".activity.activity.activity.ThongTinActivity" />
+        <activity android:name=".activity.activity.activity.LienHeActivity" />
+        <activity android:name=".activity.activity.activity.ChiTietSanPham" />
+        <activity android:name=".activity.activity.activity.Giohang" />
+        <activity android:name=".activity.activity.activity.Thongtinkhachhang" />
+        <activity android:name=".activity.activity.activity.LoginActivity" />
+        <activity android:name=".activity.activity.activity.RegisterActivity" />
+        <activity android:name=".activity.activity.activity.ProfileActivity"></activity>
+    </application>
+
+</manifest>
